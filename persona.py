@@ -1,3 +1,3 @@
 #esto es una prueba
-print("chau mundo")
+print("Quetal mundo?")
 print("Chauuuu")
