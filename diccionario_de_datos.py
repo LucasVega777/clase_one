@@ -69,9 +69,12 @@ if dic_persona.get("color_ojos"):
     print("Existe la clave color ojos")
 else:
     print("No existe la clave color ojos") 
- 
-lista_claves = ["nombre", "edad", "estatura"]
 
+dic_persona["Hobbies"] = ["Jugar","Programar","Dibjuar"]
+
+print(dic_persona)
+""" 
+lista_claves = ["nombre", "edad", "estatura"]
 for clave in lista_claves:
     print(dic_persona[clave])
 
@@ -84,4 +87,4 @@ dic_prueba = {
                 "Profesor": dic_profe
             }
         
-print(dic_prueba["Alumno"]["estatura"])
+print(dic_prueba["Alumno"]["estatura"])"""
